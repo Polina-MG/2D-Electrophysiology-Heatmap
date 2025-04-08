@@ -911,7 +911,7 @@ class HeatmapWindow(QMainWindow):
         plt.plot(time[nega_peaks], signal_data[nega_peaks], "o", label='Negative Peaks')
         plt.title(f"Signal of {electrode_name} - Line {y+1}")
         plt.xlabel(f"Time (ms)")
-        plt.ylabel("Amplitude (mV)")
+        plt.ylabel("Amplitude (µV)")
         plt.legend()
         plt.show()
 
